@@ -1,5 +1,5 @@
 // domain.com/news
-
+import Link from "next/link"; 
 import { Fragment } from "react";
 
 function NewsPage() {
@@ -7,8 +7,8 @@ function NewsPage() {
         <Fragment>
             <h1>News Page</h1>
             <ul>
-                <li><a href="/news/article1"> Article 1 title</a></li>
-                <li><a href="/news/article2"> Article 2 title</a></li>
+                <li><Link href="/news/article1"> Article 1 title</Link></li>
+                <li><Link href="/news/article2"> Article 2 title</Link ></li>
             </ul>
         </Fragment>
         ) 
